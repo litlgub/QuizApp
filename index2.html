@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Classic Film Quiz</title>
+    <meta name="description" content="Test your backcountry, backpacking, and outdoor knowledge">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+      <header role="banner">
+        <h1 class="marquee">Classic Movie Quiz</h1>
+        <p class="questionNum">Question/2</p>
+        <p class="correctNum">Correct/0</p>
+      </header>
+      <main class="container">
+
+        <form>
+          <fieldset>
+           <legend class="question">What is a 'sleeper'?</legend>
+           <input type="radio" name="quiz-1" id="ans-1" value="0" checked>
+           <label class="ans-1" for="ans-1">A boring movie.</label>
+           <br>
+           <input type="radio" name="quiz-2" id="ans-2" value="1">
+           <label class="ans-2" for="ans-2">A long movie.</label>
+           <br>
+           <input type="radio" name="quiz-3" id="ans-3" value="2">
+           <label class="ans-3" for="ans-3">A movie that had delayed production.</label>
+           <br>
+           <input type="radio" name="quiz-4" id="ans-4" value="3">
+           <label class="ans-4" for="ans-4">A movie that wasnt appreciated when released.</label>
+          </fieldset>
+        </form>
+        
+        <div class="submitQuiz">
+        <button>
+            <span class="button-label">Submit</span>
+        </button>
+      </div>
+
+          
+      </main>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+  </html>

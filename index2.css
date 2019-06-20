@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+  }
+  
+  header {
+    border-bottom: 2px solid lightgray;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 125px;
+    padding: 10px;
+  }
+  
+  fieldset {
+    border: none;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  
+  .question {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .ans-1 {
+    color: red;
+    
+  }
+  
+  .ans-4 {
+    color: green;
+    
+  }
+  
+  .questionNum {
+    text-align: left;
+    position: relative;
+    top: 23px;
+    left: 60px;
+    font-size: 1.2rem;
+  }
+  
+  .correctNum {
+    text-align: right;
+    position: relative;
+    bottom: 0px;
+    right: 60px;
+    font-size: 1.2rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    
+  }
+  
+  .button-label {
+    justify-content: space-between;
+    width: 50px;
+    height: 20px;
+    font-size: 1.5rem;
+  }
